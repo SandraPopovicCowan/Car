@@ -9,7 +9,7 @@ public class Car {
    private int buildYear;
    private int milage = 0;
    private int fuel;
-   private int consumption;
+   private int consumption = 5;
    
    
    public Car() {
@@ -87,4 +87,12 @@ private void setFuel(int Fuel) {
        
       
    }
+   
+   // public fuelUp(int amountOfFeul
+   //maxFuel (capacity) dopuniti samo koliko ima mesta 
+   //imamo 20l kapacitet 50l mozemo dopuniti samo 20
+   
+   //
 }
+
+

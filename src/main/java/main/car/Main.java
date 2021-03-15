@@ -17,6 +17,8 @@ public class Main {
     
         audi.printAttributs();
         audi.travel(150);
+        //audi.fuelUp(30);
+        //aud.travel(300);
         
         //System.out.println("Brand: " + audi.brand);
         //System.out.println("Model: " + audi.model);
