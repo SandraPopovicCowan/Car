@@ -9,12 +9,14 @@ public class Main {
         int a = 5;
         int b = 6;
         Car audi = new Car();
+        audi.printAttributs();
         audi.brand = "Audi";
         audi.model = "A4";
         audi.color = "black";
         //audi.buildYear = 2005;
-        
+    
         audi.printAttributs();
+        audi.travel(150);
         
         //System.out.println("Brand: " + audi.brand);
         //System.out.println("Model: " + audi.model);
@@ -34,9 +36,19 @@ public class Main {
         System.out.println("Godinja proizvodnje: " + fiat.getBuildYear()); 
         
         
-        Car lada = new Car("Lada", "Niva", "green", 2018);
+        Car lada = new Car("Lada", "Niva", "green", 2018, 0, 20, 5);
+        lada.printAttributs();
+        lada.travel(100);
         lada.printAttributs();
         
+        lada.travel(200);
+        lada.printAttributs();
+        
+        lada.travel(100);
+        lada.printAttributs();
+        
+        lada.travel(50);
+        lada.printAttributs();
         
         
     }
