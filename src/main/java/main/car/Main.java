@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Godinja proizvodnje: " + fiat.getBuildYear()); 
         
         
-        Car lada = new Car("Lada", "Niva", "green", 2018, 0, 20, 5);
+        Car lada = new Car ("Lada", "Niva", "green", 2018, 0, 20, 5, 50, 5, 3);
         lada.printAttributs();
         lada.travel(100);
         lada.printAttributs();
@@ -50,6 +50,16 @@ public class Main {
         lada.printAttributs();
         
         lada.travel(50);
+        lada.printAttributs();
+        
+        lada.fuelUp (55);
+        lada.printAttributs();
+        
+ 
+        lada.enteringpassenger(2);
+        lada.printAttributs();
+        
+        lada.exitingpassenger(4);
         lada.printAttributs();
         
         
